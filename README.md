@@ -2,7 +2,7 @@
 
 ## Description 
 A webpage designed to help users gain information on how to use some Marketing tools, why they are important, and how they or their buisness would benefit from them
-![alt screenshot of website]
+![alt screenshot of website](assets/Image%2012-14-22%20at%207.47%20PM.jpg)
 ## Instilation 
 N/A
 ## Usage 
