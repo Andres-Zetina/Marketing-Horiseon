@@ -24,20 +24,20 @@ h1 {
 .seo {
     color: #d9dcd6;
 }
-/* Adds padding, margin to the right, the float property to the right, font, and font size to the header class and div element */
-.header div {
+/* Adds padding, margin to the right, the float property to the right, font, and font size to the header class and its nav child */
+.header nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* removes the style type to the header class, div, and ul elements  */
-.header div ul {
+/* removes the style type to the header class, nav, and ul elements  */
+.header nav ul {
     list-style-type: none;
 }
-/* Adds margin and makes the div, ul, and li elements inline-block */
-div ul li {
+/* Adds margin and makes the nav, ul, and li elements inline-block */
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -86,56 +86,27 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Adjusts margin-bottom and adds color to text of class benefit-lead */
-.benefit-lead {
+/* Adjusts margin-bottom and adds color to text */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* adjusts margin-bottom and adds color to text of class benefit-brand */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* adjuts margin-bottom and adds color to texts of benefit-cost */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+
 /* adjuts margin bottom and aligns text to center */
-.benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
+/* adjuts display type to block and makes margin 10 px and the width to 150px of img element too  */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
-.benefit-cost  h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* adjuts display type to block and makes margin 10 px and the width to 150px of img element too  */
-.benefit-lead  img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* adjuts display type to block and makes margin 10 px and the width to 150px of img element too  */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* adjuts display type to block and makes margin 10 px and the width to 150px of img element too  */
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* adjusts margin bottom, padding, height, aswell adding font, color, and background color to search-engine-optimization class */
-.search-engine-optimization {
+/* adjusts margin bottom, padding, height, aswell adding font, color, and background color  */
+.online-reputation-management, .search-engine-optimization, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,59 +114,27 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* adjusts margin bottom, padding, height, aswell adding font, color, and background color to online-reputation-management class */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* adjusts margin bottom, padding, height, aswell adding font, color, and background color to social-media-marketing class */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* ajusts height of .search-engine-optimization class and img element */
-.search-engine-optimization img {
+
+/* ajusts height */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-/* ajusts height of .online-reputation-managementclass and img element */
-.online-reputation-management img {
-    max-height: 200px;
-}
-/* ajusts height of social-media-marketing class and img element */
-.social-media-marketing img {
-    max-height: 200px;
-}
-/* adjusts font-size and margin-bottom of h2 element and .search-engine-optimization class  */
-.search-engine-optimization h2 {
+
+/* adjusts font-size and margin-bottom   */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* adjusts font-size and margin-bottom of h2 element and .online-reputation-management class */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* adjusts font-size and margin-bottom of h2 element and .social-media-marketing class  */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
 /* adjusts footer class' padding and clear key value to both, adding font and aligning text to center  */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    
 }
-/* adjusts font-size for footer class and h2 elements */
+/* adjusts font-size for the h2 element in footer class */
 .footer h2 {
     font-size: 20px;
 }
